@@ -58,7 +58,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.each do |seasons| 
     binding.pry
     if seasons == :winter 
-      :winter.values.flatten 
+      seasons.values.flatten 
      end
   end
 end
