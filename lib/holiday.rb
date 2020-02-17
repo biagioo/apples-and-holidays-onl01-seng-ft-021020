@@ -48,7 +48,7 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated has 
-  holiday_hash[:fall] = {:columbus_day => ["#{supply_array.chomp}"]}
+  holiday_hash[:fall] = {:columbus_day => ["#{supply_array}"]}
   
 end
 
