@@ -83,7 +83,6 @@ holiday_hash.collect do |season, holidays|
       
   
   #binding.pry
-      end
     end
   end
 end
