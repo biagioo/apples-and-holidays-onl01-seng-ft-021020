@@ -59,7 +59,7 @@ def all_winter_holiday_supplies(holiday_hash)
     binding.pry
     if season == :winter 
       :winter.values 
-    end 
+     
   end
 end
 
