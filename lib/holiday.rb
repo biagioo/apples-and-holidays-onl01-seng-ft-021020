@@ -71,7 +71,7 @@ holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
       puts "#{holiday.capitalize}: #{supplies.capitalize}"
     #binding.pry
-      end
+      
     end
   end
 end
